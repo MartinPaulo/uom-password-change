@@ -44,7 +44,7 @@ def generate_password():
 
 
 def encode_password(password):
-    return quote(password, safe='')
+    return quote(password, safe='[')
 
 
 def login(username, password):
